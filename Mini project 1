@@ -51,3 +51,36 @@ Employee Name    : Rahul
 Department       : IT
 Basic Salary     : 60000.0
 Experience        : 4 Years
+
+==================================
+Project structure :
+
+EmployeeManagement
+│
+├── EmployeeOperations.java      // Normal Interface
+├── BonusPolicy.java             // Functional Interface
+├── Employee.java                // Implements EmployeeOperations & Serializable
+├── EmployeeUtility.java         // Serialization & Deserialization
+└── EmployeeManagement.java      // Main Class (Menu + BufferedReader)
+
+Bonus Calculation:
+Calculate the bonus using a Functional Interface with the following criteria:
+
+Years of Experience	Bonus:
+
+Less than 2 years	= 5% of Basic Salary
+2 to 5 years	= 10% of Basic Salary
+More than 5 years = 	20% of Basic Salary
+
+
+Input format be:
+
+========== Employee Management System ==========
+1. Add Employee
+2. Display Employee
+3. Calculate Bonus
+4. Save Employee
+5. Load Employee
+6. Exit
+
+Enter your choice:
